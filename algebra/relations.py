@@ -33,7 +33,7 @@ def extract_commutators_from_rtt(z, w):
     rhs = sp.expand(T2 * T1 * R)
 
     diff = lhs - rhs
-    print("📤 Commutation relations from RTT:\n")
+    print("Commutation relations from RTT:\n")
 
     for i in range(diff.shape[0]):
         for j in range(diff.shape[1]):
